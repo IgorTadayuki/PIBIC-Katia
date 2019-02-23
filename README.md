@@ -88,7 +88,7 @@ OFPST_PORT_DESC reply (OF1.3) (xid=0x3):
 OFPT_GET_CONFIG_REPLY (OF1.3) (xid=0x5): frags=normal miss_send_len=0
 ```
 
-## Now implement the scenario1 in file [./controller/simple_scenario.py](./controller/simple_scenario.py)
+## Now, implement scenario1 in the file[./controller/simple_scenario.py](./controller/simple_scenario.py)
 
 To do this, change line 12 of [app.py](./app.py) file to reference the file [./controller/simple_scenario.py](./controller/simple_scenario.py)
 
