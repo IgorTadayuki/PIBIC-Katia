@@ -1,6 +1,5 @@
 # PIBIC-Katia
 
-
 ### Install the dependencies
 
 Install mininet
@@ -22,9 +21,14 @@ or configure to use your IDE:
 1. https://www.jetbrains.com/help/pycharm/creating-and-running-your-first-python-project.html
 2. https://www.jetbrains.com/help/pycharm/debugging-your-first-python-application.html
 
-## Simple Scenario (scenario1)
 
-Mininet simple scenario (scenario1) in figure:
+## Scenarios
+
+![alt text](https://raw.githubusercontent.com/LABORA-INF-UFG/PIBIC-Katia/master/docs/topology.jpg)
+
+### Simple Scenario (scenario1)
+
+Mininet simple scenario (scenario1):
 ```
 mn --custom topology/simple_scenario.py --topo=simple_scenario_topo
 ```
