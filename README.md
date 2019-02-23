@@ -39,7 +39,7 @@ Run in your host the following command to show all rules added on switch `s1`:
 ```
 $ ovs-ofctl dump-flows s1 -O OpenFlow13
 ```
-We wait have two rules:
+we hope to have two rules:
 ```
 OFPST_FLOW reply (OF1.3) (xid=0x2):
  cookie=0x0, duration=58.695s, table=0, n_packets=3, n_bytes=294, priority=1,in_port=1,dl_dst=00:00:00:00:00:02 actions=output:2
