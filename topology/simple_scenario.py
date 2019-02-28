@@ -40,11 +40,13 @@ class SimpleScenarioTopo(Topo):
         info("*** Creating hosts\n")
         h1 = net.addHost(name='h1', ip='10.0.0.1', mac='00:00:00:00:00:01', defaultHost='')
         h2 = net.addHost(name='h2', ip='10.0.0.2', mac='00:00:00:00:00:02', defaultHost='')
+        # h3 = net.addHost(name='h3', ip='10.0.0.3', mac='00:00:00:00:00:03', defaultHost='')
 
         info("*** Creating links\n")
         net.addLink(h1, s1)
         net.addLink(s1, s2)
         net.addLink(h2, s2)
+        # net.addLink(h3, s2)
 
         info("*** Creating network\n")
         net.build()
